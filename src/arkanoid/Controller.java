@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.AnchorPane;
+import lobby.Lobby;
 
 public class Controller {
 
@@ -41,10 +42,18 @@ public class Controller {
 
     if (Game.running) {
       Game.running = false;
+      Lobby lobby = Game.getLobby();
+      if (lobby != null) {
+        lobby.sendMessage("!pause arkanoid");
+      }
       System.out.println("PAUSING...");
       pauseBox.setVisible(true);
     } else {
       Game.running = true;
+      Lobby lobby = Game.getLobby();
+      if (lobby != null) {
+        lobby.sendMessage("!resume arkanoid");
+      }
       System.out.println("RESUMING...");
       pauseBox.setVisible(false);
     }

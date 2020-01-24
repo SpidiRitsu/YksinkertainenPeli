@@ -45,7 +45,12 @@ public class Game {
   private Image background = new Image(new File("src/resources/7.png").toURI().toString());
   private Image startBackground = new Image("file:../resources/8.png");
   private boolean win = false;
-  private Lobby lobby;
+  private static Lobby lobby;
+
+  public static Lobby getLobby() {
+    return lobby;
+  }
+
   private AnimationTimer animatrix;
 
   GraphicsContext gc;
