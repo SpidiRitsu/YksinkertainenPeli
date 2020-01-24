@@ -62,6 +62,10 @@ public class ReadTask extends Task<Void> {
                 Game.running = false;
               } else if (message.contains("!resume arkanoid")) {
                 Game.running = true;
+              } else if (message.contains("User won with")) {
+                Game.running = false;
+                Game.started = false;
+                Game.isActive = false;
               }
             }
           }
