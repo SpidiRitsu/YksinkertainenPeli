@@ -87,7 +87,6 @@ public class Game {
     initializeBricks();
 
 //    gc.drawImage(startBackground, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-    System.out.println("FUCKERINO");
 
     animatrix = new AnimationTimer()
     {
