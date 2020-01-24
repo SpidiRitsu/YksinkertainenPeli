@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="YksinkertainenPeli:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/YksinkertainenPeli_jar</output-path>
+    <root id="archive" name="YksinkertainenPeli.jar">
+      <element id="module-output" name="YksinkertainenPeli" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JAVA_FX_13$/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
